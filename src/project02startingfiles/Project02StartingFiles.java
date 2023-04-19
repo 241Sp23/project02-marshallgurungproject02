@@ -52,7 +52,7 @@ public class Project02StartingFiles {
         System.out.println("Pay for two-week pay period\n===========================");
         for(Employee i: workers){
             if(i.isWorking()){
-                System.out.printf("%-18s$%-9.2f", i.getEmployeeName(), i.getPay());
+                System.out.printf("%-18s$%-9.2f", i.getName(), i.getPay());
                 System.out.println();
             }
         }
