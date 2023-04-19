@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -32,11 +33,11 @@ public class ClassifiedStaff extends Employee{
     public void setDivision(String div) {
         division = div;
     }
-
+    @Override
     public double getPay() {
         return weeklySalary * 2;
     }
-
+    @Override
     public String toString() {
         return super.toString() + "\t" + weeklySalary + "\t" + division;
     }

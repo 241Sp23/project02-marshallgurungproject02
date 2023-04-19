@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -30,12 +31,13 @@ public abstract class Employee {
     public void setEmployeeId(int number) {
         employeeId = number;
     }
-      public boolean IsWorking() {
+    public boolean IsWorking() {
         return isWorking;
     }
     public void setIsWorking(boolean employed) {
         isWorking = employed;
     }
+    @Override
     public String toString(){
         return employeeName+"\t"+employeeId+"\t"+isWorking;
     }
@@ -43,3 +45,4 @@ public abstract class Employee {
     
     public abstract double getPay();
 }
+
