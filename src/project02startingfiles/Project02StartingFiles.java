@@ -51,6 +51,7 @@ public class Project02StartingFiles {
         //Print out the two-week pay
         System.out.println("Pay for two-week pay period\n===========================");
         for(Employee i: workers){
+
             if(i.IsWorking()){
                 System.out.printf("%-18s$%-9.2f", i.getName(), i.getPay());
                 System.out.println();
